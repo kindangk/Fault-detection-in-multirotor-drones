@@ -46,6 +46,8 @@ codegen/
 /code/src/_featureData.mat
 /code/src/_processedFeatureData.mat
 
+/code/src/featureData.mat
+
 /code/data/FAULT_M1_5.mat
 /code/data/FAULT_M1_10.mat
 /code/data/FAULT_M2_5.mat
@@ -77,7 +79,5 @@ codegen/
 /code/session/DFD_App_SessionData_8_nolastframe_ps_time_freq.mldatx
 /code/session/DFD_App_SessionData_9_nolastframe_time_ps.mldatx
 /code/session/DFD_App_SessionData_or_auto.mldatx
-
-/code/src/featureData.mat
 
 /code/session/
