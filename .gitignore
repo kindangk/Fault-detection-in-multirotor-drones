@@ -1,0 +1,83 @@
+# Autosave files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+
+# Derived content-obscured files
+*.p
+
+# Compiled MEX files
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Code generation folders
+slprj/
+sccprj/
+codegen/
+
+# Cache files
+*.slxc
+
+# Cloud based storage dotfile
+.MATLABDriveTag
+
+# buildtool cache folder
+.buildtool/
+
+# SimBiology backup files
+*.sbproj.backup
+*.sbproj.bak
+
+# Single files and directories
+/docs/
+/resources/
+
+/code/src/_featureData.mat
+/code/src/_processedFeatureData.mat
+
+/code/data/FAULT_M1_5.mat
+/code/data/FAULT_M1_10.mat
+/code/data/FAULT_M2_5.mat
+/code/data/FAULT_M2_10.mat
+/code/data/FAULT_M3_5.mat
+/code/data/FAULT_M3_10.mat
+/code/data/FAULT_M4_5.mat
+/code/data/FAULT_M4_10.mat
+/code/data/FAULT_M5_5.mat
+/code/data/FAULT_M5_10.mat
+/code/data/FAULT_M6_5.mat
+/code/data/FAULT_M6_10.mat
+/code/data/NO_FAULT1.mat
+/code/data/NO_FAULT2.mat
+/code/data/NO_FAULT3.mat
+/code/data/NO_FAULT4.mat
+/code/data/NO_FAULT5.mat
+/code/data/NO_FAULT6.mat
+
+/code/session/ClassificationLearnerSession_1.mat
+/code/session/ClassificationLearnerSession_2.mat
+/code/session/DFD_App_SessionData_10_nolastframe_time_ps_freq.mldatx
+/code/session/DFD_App_SessionData_2_ps.mldatx
+/code/session/DFD_App_SessionData_3_ps_time_freq.mldatx
+/code/session/DFD_App_SessionData_4_time.mldatx
+/code/session/DFD_App_SessionData_5_time_ps.mldatx
+/code/session/DFD_App_SessionData_6_time_ps_freq.mldatx
+/code/session/DFD_App_SessionData_7_nolastframe_ps.mldatx
+/code/session/DFD_App_SessionData_8_nolastframe_ps_time_freq.mldatx
+/code/session/DFD_App_SessionData_9_nolastframe_time_ps.mldatx
+/code/session/DFD_App_SessionData_or_auto.mldatx
+
+/code/src/featureData.mat
+
+/code/session/
