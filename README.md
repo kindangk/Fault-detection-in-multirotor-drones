@@ -8,15 +8,39 @@ This project focuses on developing a Fault Detection procedure to identify worn 
 - `explainability_graphs/`  
   Stores graphs and figures related to the interpretability and explainability analysis of the trained models, saved in `.fig` format.
 
-- `code/src/`  
-  Contains the main MATLAB `.m` scripts used for data processing, feature extraction, training, and evaluation.
-
 - `code/data/`  
   This directory is not included in the project repository.  
   ___The dataset must be placed here before running the scripts.___
 
 - `code/modelTraining/`  
   Contains the automatically generated and exported MATLAB code from the Classification Learner app, used for model training and validation.
+
+- `code/src/`  
+  Contains the main MATLAB `.m` scripts used for data processing, feature extraction, training, and evaluation.
+
+  - `main.m`  
+    Main execution script of the project.  
+    It performs dataset loading, preprocessing, feature extraction, feature selection, and preparation of the data for classification.
+  
+  - `interpretability.m`  
+    Script dedicated to the post-training interpretability analysis.  
+    It trains surrogate models and generates explainability results and figures for the trained classifiers.
+  
+  - `Config.m`  
+    Configuration file containing the main project settings and customizable parameters, such as dataset paths, output folders, preprocessing options, and training settings.
+  
+  - `fileLoader.m`  
+    Utility functions used by `main.m` to load the dataset files and organize the acquired flight data.
+  
+  - `preprocessingUtils.m`  
+    Collection of preprocessing utility functions used by `main.m` during the signal preprocessing phase.
+  
+  - `diagnosticFeatures.m`  
+    Feature extraction script used by `main.m` to compute diagnostic features from the sensor signals.  
+    This file was automatically generated using the MATLAB Diagnostic Feature Designer tool.
+  
+  - `saveTrainedModels.m`  
+    Utility script used to save the trained Machine Learning models from the MATLAB workspace into `.mat` files.
 
 # How to Run
 1. **Download the dataset**  
